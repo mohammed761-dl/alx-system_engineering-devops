@@ -70,4 +70,3 @@ Complete the 9 next tasks, getting to 27 total.
 -   GitHub repository: `alx-system_engineering-devops`
 -   Directory: `command_line_for_the_win`
 -   File: `2-next_9_tasks.jpg,2-next_9_tasks.png`
-

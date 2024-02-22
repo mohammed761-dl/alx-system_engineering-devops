@@ -1,1 +1,1 @@
-shell permation
+this is a readme file for shell permissions
