@@ -1,4 +1,6 @@
-# replace .phpp with .php in wp-settings.php
-exec { 'fix wordpress':
-  command     => "/bin/sed -i 's/phpp/php/g' /var/www/html/wp-settings.php",
+# automated puppet fix (to find out why Apache is returning a 500 error)
+
+exec { 'Fix wordpress site':
+  command  => 'sudo sed -i "s/.phpp/.php/" /var/www/html/wp-settings.php',
+  provider => shell,
 }
